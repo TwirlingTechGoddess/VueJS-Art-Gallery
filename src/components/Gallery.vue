@@ -1,3 +1,5 @@
+/* eslint-disable no-alert, no-console */
+
 <template>
   <div>
     <h1><em>iVue League Gallery</em></h1>
@@ -106,10 +108,10 @@ export default {
   }
   .gallery {
     height: 15rem;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     overflow: scroll;
   }
@@ -154,67 +156,5 @@ export default {
   }
   main {
   margin-bottom: .5rem;
-  }
-</style>
-
-      this.images = data.body.records
-      this.object = data.body.info
-    })
-  }
-}
-</script>
-
-<style scoped>
-  img {
-    width: 40vw;
-    cursor: pointer;
-  }
-  button {
-    box-sizing: border-box;
-    appearance: none;
-    background-color: transparent;
-    border-radius: 0.6em;
-    cursor: pointer;
-    align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 20px;
-    padding: 1em 1em;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    border-color: #3498db;
-    color: #fff;
-    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 green;
-    transition: all 150ms ease-in-out;
-    width: 12rem;
-    max-height: 4rem;
-  }
-  button:hover {
-    color: purple;
-    outline: 0;
-    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px green;
-  }
-  .gallery {
-    height: 15rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow: scroll;
-  }
-  .glryImg, p {
-    width: 8vw;
-    margin: 0 .2rem;
-  }
-
-  p {
-    height: 2.5rem;
-    margin-bottom: .5rem;
-    overflow: scroll;
   }
 </style>

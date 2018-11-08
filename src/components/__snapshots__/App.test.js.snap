@@ -5,3 +5,15 @@ exports[`App matches snapshot 1`] = `
   <!---->
 </div>
 `;
+
+exports[`App matches snapshot with images 1`] = `
+<div id="app">
+  <!---->
+</div>
+`;
+
+exports[`App matches snapshot without images 1`] = `
+<div id="app">
+  <!---->
+</div>
+`;

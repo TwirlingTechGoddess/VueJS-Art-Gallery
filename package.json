@@ -11,10 +11,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0",
     "jest-vue-preprocessor": "^1.4.0",
     "vue": "^2.5.2",
+    "vue-axios": "^2.1.4",
     "vue-resource": "^1.5.1"
   },
   "devDependencies": {
@@ -50,8 +52,10 @@
     "url-loader": "^0.5.8",
     "vue-jest": "^3.0.0",
     "vue-loader": "^13.3.0",
+    "vue-resource-mock": "0.0.11",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
+    "vue-test-utils": "^1.0.0-beta.11",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
     "webpack-dev-server": "^2.9.1",

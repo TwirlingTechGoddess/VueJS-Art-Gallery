@@ -19,7 +19,7 @@
         <img v-bind:src="image.baseimageurl"  alt="Smiley face" height="image.height" width="image.width/2" v-on:click="highlight" />
       </main>
       <button v-on:click="change (object.next)" >More Art</button>
-      <button v-on:click="showCurated" >View Exhibit</button>
+      <button v-on:click="showCurated" class="curated">View Exhibit</button>
     </section>
   </div>
 </template>
@@ -37,7 +37,6 @@ export default {
     return {
       images: [],
       object: {},
-      active: false,
       galleryImg: []
     }
   },

@@ -4,23 +4,23 @@ Hitting the Smithsonian’s museum art api for visual arts. I use the VueJS fram
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+##### install dependencies
+```npm install```
 
-npm install vue-template-compiler
+```cd VueJS-Art-Gallery```
 
-npm audit fix
+```npm install vue-template-compiler```
 
-# serve with hot reload at localhost:8080
-npm run dev
+```npm audit fix```
 
-# build for production with minification
-npm run build
+##### serve with hot reload at localhost:8080
+```npm run dev```
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+##### build for production with minification
+```npm run build```
+
+##### build for production and view the bundle analyzer report
+```npm run build --report```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 

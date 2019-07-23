@@ -8,6 +8,10 @@
 # install dependencies
 npm install
 
+npm install vue-template-compiler
+
+npm audit fix
+
 # serve with hot reload at localhost:8080
 npm run dev
 

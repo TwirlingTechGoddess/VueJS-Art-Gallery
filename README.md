@@ -26,3 +26,14 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Navigation
 
+Landing page
+![landing](https://github.com/TwirlingGoddess/VueJS-Art-Gallery/blob/master/landing.png "Landing")
+
+Clicked images collect in personal Gallery
+![gallery](https://github.com/TwirlingGoddess/VueJS-Art-Gallery/blob/master/gallery.png "gallery")
+
+Hover enlarges images
+![hover](https://github.com/TwirlingGoddess/VueJS-Art-Gallery/blob/master/hover.png "hover")
+
+Create/Edit captions for curated art
+![caption](https://github.com/TwirlingGoddess/VueJS-Art-Gallery/blob/master/caption.png "caption")

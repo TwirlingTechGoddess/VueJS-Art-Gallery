@@ -1,6 +1,6 @@
-# vue-project
+# VueJS Art Gallery
 
-> A Vue.js project
+Hitting the Smithsonian’s museum art api for visual arts. I use the VueJS framework to display the unique pieces, allowing the user to curate and caption their own collection.
 
 ## Build Setup
 
@@ -23,3 +23,6 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Navigation
+

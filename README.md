@@ -1,6 +1,6 @@
 # VueJS Art Gallery
 
-Hitting the Smithsonian’s museum art api for visual arts. I use the VueJS framework to display the unique pieces, allowing the user to curate and caption their own collection.
+Hitting the Smithsonian’s museum art api for visual arts. I use the VueJS framework to display the unique pieces, allowing the user to curate and caption their own collection for exhibit.
 
 ## Build Setup
 
@@ -29,7 +29,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 Landing page
 ![landing](https://github.com/TwirlingGoddess/VueJS-Art-Gallery/blob/master/landing.png "Landing")
 
-Clicked images collect in personal Gallery
+Clicked images collect in personal exhibit
 ![gallery](https://github.com/TwirlingGoddess/VueJS-Art-Gallery/blob/master/gallery.png "gallery")
 
 Hover enlarges images
